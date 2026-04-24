@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { products, getFeaturedProducts } from '../data/products'
 import ProductCard from '../components/ProductCard'
 import './Home.css'
-import hero from "./assets/hero image.png"
+import hero from "../assets/hero image.png"
 
 const Home = () => {
   const activeProducts = useMemo(() => products.filter(p => !p.disabled), [])

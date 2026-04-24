@@ -1,12 +1,12 @@
-import bb from "./assets/black-back.png"
-import bf from "./assets/black-front.png"
-import gb from "./assets/gray-back.png"
-import gf from "./assets/gray-front.png"
-import wb from "./assets/white-back.png"
-import wf from "./assets/white-front.png"
-import lsbf from "./assets/LS-black-front.png"
-import lsgf from "./assets/LS-gray-front.png"
-import lswf from "./assets/LS-white-front.png"
+import bb from "../assets/black-back.png"
+import bf from "../assets/black-front.png"
+import gb from "../assets/gray-back.png"
+import gf from "../assets/gray-front.png"
+import wb from "../assets/white-back.png"
+import wf from "../assets/white-front.png"
+import lsbf from "../assets/LS-black-front.png"
+import lsgf from "../assets/LS-gray-front.png"
+import lswf from "../assets/LS-white-front.png"
 
 // Seed products kept in code for fallback when Supabase is unavailable.
 export const products = [
