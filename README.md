@@ -125,5 +125,5 @@ Colors are defined as CSS variables in `src/index.css` for easy customization.
 
 ## License
 
-This project is open source and available for personal and commercial use.
+This project is protected under copyright of 806 Threads and may not be used for personal or commerical use.
 
