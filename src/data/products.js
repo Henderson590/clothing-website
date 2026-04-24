@@ -1,5 +1,12 @@
-// Product data structure
-// Easy to modify and add new products
+import bb from "./assets/black-back.png"
+import bf from "./assets/black-front.png"
+import gb from "./assets/gray-back.png"
+import gf from "./assets/gray-front.png"
+import wb from "./assets/white-back.png"
+import wf from "./assets/white-front.png"
+import lsbf from "./assets/LS-black-front.png"
+import lsgf from "./assets/LS-gray-front.png"
+import lswf from "./assets/LS-white-front.png"
 
 // Seed products kept in code for fallback when Supabase is unavailable.
 export const products = [
@@ -14,12 +21,12 @@ export const products = [
     sizes: ["S", "M", "L", "XL", "2XL"],
     colors: ["Black", "White", "Grey"], // More colors will be added later
     images: [
-      "src\\assets\\black-back.png",
-      "src\\assets\\black-front.png",
-      "src\\assets\\gray-back.png",
-      "src\\assets\\gray-front.png",
-      "src\\assets\\white-back.png",
-      "src\\assets\\white-front.png" // INSERT PRODUCT IMAGE HERE (recommended size: 1200x1200)
+      bb,
+      bf,
+      gb,
+      gf,
+      wb,
+      wf // INSERT PRODUCT IMAGE HERE (recommended size: 1200x1200)
     ],
     featured: false,
     limitedEdition: false,
@@ -37,9 +44,9 @@ export const products = [
     sizes: ["S", "M", "L", "XL", "2XL"],
     colors: ["Black", "White", "Grey"], // More colors will be added later
     images: [ 
-      "src\\assets\\LS-black-front.png",
-      "src\\assets\\LS-gray-front.png",
-      "src\\assets\\LS-white-front.png"
+      lsbf,
+      lsgf,
+      lswf
     ], // INSERT PRODUCT IMAGE HERE (recommended size: 1200x1200)
     featured: false,
     limitedEdition: false,

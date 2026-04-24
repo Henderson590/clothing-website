@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { products, getFeaturedProducts } from '../data/products'
 import ProductCard from '../components/ProductCard'
 import './Home.css'
+import hero from "./assets/hero image.png"
 
 const Home = () => {
   const activeProducts = useMemo(() => products.filter(p => !p.disabled), [])
@@ -17,7 +18,7 @@ const Home = () => {
       {/* Hero Section */}
       <section className="hero-section">
         <div className="hero-image">
-          <img src="src/images/hero image.png" alt="Hero" />
+          <img src={hero} alt="Hero" />
         </div>
         <div className="hero-content">
           <h1 className="hero-headline">Handcrafted Clothing. Made Local.</h1>
