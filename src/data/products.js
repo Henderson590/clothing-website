@@ -64,7 +64,7 @@ export const products = [
     name: "Midnight Garden - Tee",
     price: 30,
     description: "• The Midnight Garden - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.*",
-    category: "Define Defiance",
+    category: "Midnight Garden",
     categoryGroup: "",
     addToGroup: true, // Set to false to hide this category from grouped filters
     sizes: ["S", "M", "L", "XL", "2XL"],
@@ -83,7 +83,7 @@ export const products = [
     name: "Lost Truth - Tee",
     price: 30,
     description: "• The Lost Truth - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.*",
-    category: "Define Defiance",
+    category: "Lost Truth",
     categoryGroup: "",
     addToGroup: true, // Set to false to hide this category from grouped filters
     sizes: ["S", "M", "L", "XL", "2XL", "3XL"],
@@ -102,7 +102,7 @@ export const products = [
     name: "Live Fast, Die Hard - Tee",
     price: 30,
     description: "• The Live Fast, Die Hard - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.*",
-    category: "Define Defiance",
+    category: "Live Fast, Die Hard",
     categoryGroup: "",
     addToGroup: true, // Set to false to hide this category from grouped filters
     sizes: ["S", "M", "L", "XL", "2XL", "3XL"],
