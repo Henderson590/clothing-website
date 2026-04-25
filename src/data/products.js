@@ -11,6 +11,8 @@ import fnb from "../assets/fake-news-black-mockup.png"
 import fnw from "../assets/fake-news-white-mockup.png"
 import flb from "../assets/flower-black-mockup.png"
 import flw from "../assets/flower-white-mockup.png"
+import lfb from "../assets/live-fast-black.png"
+import lfw from "../assets/live-fast-white.png"
 
 // Seed products kept in code for fallback when Supabase is unavailable.
 export const products = [
@@ -18,7 +20,7 @@ export const products = [
     id: 1,
     name: "Define Defiance - Tee",
     price: 30,
-    description: "• The Define Defiance Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.*",
+    description: "• The Define Defiance - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.*",
     category: "Define Defiance",
     categoryGroup: "",
     addToGroup: true, // Set to false to hide this category from grouped filters
@@ -41,7 +43,7 @@ export const products = [
     id: 2,
     name: "Define Defiance - Long Sleeve",
     price: 35,
-    description: "• The Define Defiance Long Sleeve is made from 100% cotton. \n• Due to the nature of the garment dye process, each shirt will have a slight variation in shade. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.*",
+    description: "• The Define Defiance - Long Sleeve is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.*",
     category: "Define Defiance",
     categoryGroup: "",
     addToGroup: true, // Set to false to hide this category from grouped filters
@@ -54,14 +56,14 @@ export const products = [
     ], // INSERT PRODUCT IMAGE HERE (recommended size: 1200x1200)
     featured: false,
     limitedEdition: false,
-    disabled: false,
+    disabled: true,
     newArrival: true
   },
   {
     id: 3,
     name: "Midnight Garden - Tee",
     price: 30,
-    description: "• The Define Defiance Long Sleeve is made from 100% cotton. \n• Due to the nature of the garment dye process, each shirt will have a slight variation in shade. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.*",
+    description: "• The Midnight Garden - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.*",
     category: "Define Defiance",
     categoryGroup: "",
     addToGroup: true, // Set to false to hide this category from grouped filters
@@ -80,7 +82,7 @@ export const products = [
     id: 4,
     name: "Lost Truth - Tee",
     price: 30,
-    description: "• The Define Defiance Zip-Up Hoodie is made from 60% Cotton, 40% Polyester. \n• Will shrink around 6% after first wash. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.*",
+    description: "• The Lost Truth - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.*",
     category: "Define Defiance",
     categoryGroup: "",
     addToGroup: true, // Set to false to hide this category from grouped filters
@@ -89,6 +91,25 @@ export const products = [
     images: [
       fnw,
       fnb
+    ], // INSERT PRODUCT IMAGE HERE (recommended size: 1200x1200)
+    featured: false,
+    limitedEdition: false,
+    disabled: false,
+    newArrival: true
+  },
+  {
+    id: 4,
+    name: "Live Fast, Die Hard - Tee",
+    price: 30,
+    description: "• The Live Fast, Die Hard - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.*",
+    category: "Define Defiance",
+    categoryGroup: "",
+    addToGroup: true, // Set to false to hide this category from grouped filters
+    sizes: ["S", "M", "L", "XL", "2XL", "3XL"],
+    colors: ["Black", "White"], // More colors will be added later
+    images: [
+      lfw,
+      lfb
     ], // INSERT PRODUCT IMAGE HERE (recommended size: 1200x1200)
     featured: false,
     limitedEdition: false,
