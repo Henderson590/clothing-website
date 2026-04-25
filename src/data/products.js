@@ -48,9 +48,9 @@ export const products = [
     sizes: ["S", "M", "L", "XL", "2XL"],
     colors: ["Black", "White", "Grey"], // More colors will be added later
     images: [ 
-      lsbf,
       lsgf,
-      lswf
+      lswf,
+      lsbf
     ], // INSERT PRODUCT IMAGE HERE (recommended size: 1200x1200)
     featured: false,
     limitedEdition: false,
@@ -66,7 +66,7 @@ export const products = [
     categoryGroup: "",
     addToGroup: true, // Set to false to hide this category from grouped filters
     sizes: ["S", "M", "L", "XL", "2XL"],
-    colors: ["Black", "White", "Grey"], // More colors will be added later
+    colors: ["Black", "White"], // More colors will be added later
     images: [
       flb,
       flw
@@ -85,10 +85,10 @@ export const products = [
     categoryGroup: "",
     addToGroup: true, // Set to false to hide this category from grouped filters
     sizes: ["S", "M", "L", "XL", "2XL", "3XL"],
-    colors: ["Black", "White", "Grey"], // More colors will be added later
+    colors: ["Black", "White"], // More colors will be added later
     images: [
-      fnb,
-      fnw
+      fnw,
+      fnb
     ], // INSERT PRODUCT IMAGE HERE (recommended size: 1200x1200)
     featured: false,
     limitedEdition: false,
