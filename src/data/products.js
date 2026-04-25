@@ -63,7 +63,7 @@ export const products = [
     price: 30,
     description: "• The Define Defiance Long Sleeve is made from 100% cotton. \n• Due to the nature of the garment dye process, each shirt will have a slight variation in shade. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.*",
     category: "Define Defiance",
-    categoryGroup: "Special Releases",
+    categoryGroup: "",
     addToGroup: true, // Set to false to hide this category from grouped filters
     sizes: ["S", "M", "L", "XL", "2XL"],
     colors: ["Black", "White", "Grey"], // More colors will be added later
@@ -82,7 +82,7 @@ export const products = [
     price: 30,
     description: "• The Define Defiance Zip-Up Hoodie is made from 60% Cotton, 40% Polyester. \n• Will shrink around 6% after first wash. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.*",
     category: "Define Defiance",
-    categoryGroup: "Special Releases",
+    categoryGroup: "",
     addToGroup: true, // Set to false to hide this category from grouped filters
     sizes: ["S", "M", "L", "XL", "2XL", "3XL"],
     colors: ["Black", "White", "Grey"], // More colors will be added later
