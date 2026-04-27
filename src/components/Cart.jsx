@@ -21,6 +21,9 @@ const Cart = ({ onClose }) => {
     }
   }
 
+  const isSurchargeSize = (size) => ['2XL', '3XL'].includes(size)
+  const formatSizeWithSurcharge = (size) => isSurchargeSize(size) ? `${size} +$5` : size
+
   const handleCheckout = () => {
     setShowCheckout(true)
   }
@@ -84,7 +87,7 @@ const Cart = ({ onClose }) => {
                   <div className="cart-item-details">
                     <h3 className="cart-item-name">{item.name}</h3>
                     <p className="cart-item-info">
-                      Size: {item.size} | Color: {item.color}
+                      Size: {formatSizeWithSurcharge(item.size)} | Color: {item.color}
                     </p>
                     <p className="cart-item-price">${item.price.toFixed(2)}</p>
                   </div>

@@ -137,6 +137,9 @@ const CartPage = () => {
     }
   }
 
+  const isSurchargeSize = (size) => ['2XL', '3XL'].includes(size)
+  const formatSizeWithSurcharge = (size) => isSurchargeSize(size) ? `${size} +$5` : size
+
   return (
     <div className="cart-page page-transition">
       <div className="container cart-container">
@@ -165,7 +168,7 @@ const CartPage = () => {
                       <div className="cart-item-top">
                         <div>
                           <h3 className="item-name">{item.name}</h3>
-                          <p className="item-meta">Size: {item.size} | Color: {item.color}</p>
+                          <p className="item-meta">Size: {formatSizeWithSurcharge(item.size)} | Color: {item.color}</p>
                         </div>
                         <button className="remove-item" onClick={() => removeFromCart(item.id)}>
                           Remove

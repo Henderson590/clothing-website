@@ -34,13 +34,16 @@ export const CartProvider = ({ children }) => {
     localStorage.setItem('cart', JSON.stringify(cartItems))
   }, [cartItems, hasHydrated])
 
+  const isSurchargeSize = (size) => ['2XL', '3XL'].includes(size)
+  const getPriceWithSize = (basePrice, size) => basePrice + (isSurchargeSize(size) ? 5 : 0)
+
   const addToCart = (product, size, color, quantity) => {
     const primaryImage = product.images && product.images.length > 0 ? product.images[0] : product.image
     const newItem = {
       id: `${product.id}-${size}-${color}`,
       productId: product.id,
       name: product.name,
-      price: product.price,
+      price: getPriceWithSize(product.price, size),
       size,
       color,
       quantity,

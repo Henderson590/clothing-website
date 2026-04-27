@@ -19,10 +19,15 @@ const ProductModal = ({ product, onClose }) => {
     return []
   }, [product.images, product.image])
 
+  const isSurchargeSize = (size) => ['2XL', '3XL'].includes(size)
+  const selectedItemSize = selectedSize || 'One Size'
+  const selectedSizeSurcharge = isSurchargeSize(selectedItemSize) ? 5 : 0
+  const selectedSizePrice = product.price + selectedSizeSurcharge
+
   const handleAddToCart = () => {
     addToCart(
       product,
-      selectedSize || 'One Size',
+      selectedItemSize,
       selectedColor || 'Standard',
       quantity
     )
@@ -120,7 +125,10 @@ const ProductModal = ({ product, onClose }) => {
                 </>
               ) : (
                 <>
-                  <p className="modal-price">${product.price.toFixed(2)}</p>
+                  <p className="modal-price">${selectedSizePrice.toFixed(2)}</p>
+                  {selectedSizeSurcharge > 0 && (
+                    <p className="size-surcharge-note">Includes +$5 surcharge for size {selectedItemSize}</p>
+                  )}
 
                   {/* Product Description */}
                   {product.description && (
@@ -136,6 +144,7 @@ const ProductModal = ({ product, onClose }) => {
                           key={size}
                           className={`size-option ${selectedSize === size ? 'selected' : ''}`}
                           onClick={() => setSelectedSize(size)}
+
                         >
                           {size}
                         </button>
