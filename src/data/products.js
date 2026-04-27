@@ -70,12 +70,29 @@ export const products = [
     categoryGroup: "",
     addToGroup: true, // Set to false to hide this category from grouped filters
     sizes: ["S", "M", "L", "XL", "2XL"],
-    colors: ["Black", "White", "Black (With colored flower)", "White (With colored flower)"], // More colors will be added later
+    colors: ["Black", "White"], // More colors will be added later
     images: [
       flb,
-      flw,
-      flbc,
-      flwc
+      flw
+    ], // INSERT PRODUCT IMAGE HERE (recommended size: 1200x1200)
+    featured: false,
+    limitedEdition: false,
+    disabled: false,
+    newArrival: true
+  },
+   {
+    id: 4,
+    name: "Midnight Garden - Tee (Colored)",
+    price: 30,
+    description: "• The Midnight Garden - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.*",
+    category: "Midnight Garden",
+    categoryGroup: "",
+    addToGroup: true, // Set to false to hide this category from grouped filters
+    sizes: ["S", "M", "L", "XL", "2XL"],
+    colors: ["Black", "White"], // More colors will be added later
+    images: [
+      flwc,
+      flbc
     ], // INSERT PRODUCT IMAGE HERE (recommended size: 1200x1200)
     featured: false,
     limitedEdition: false,
@@ -83,7 +100,7 @@ export const products = [
     newArrival: true
   },
   {
-    id: 4,
+    id: 5,
     name: "Lost Truth - Tee",
     price: 30,
     description: "• The Lost Truth - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.*",
@@ -102,7 +119,7 @@ export const products = [
     newArrival: true
   },
   {
-    id: 4,
+    id: 6,
     name: "Live Fast, Die Hard - Tee",
     price: 30,
     description: "• The Live Fast, Die Hard - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.*",
