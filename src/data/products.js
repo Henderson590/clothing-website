@@ -11,6 +11,8 @@ import fnb from "../assets/fake-news-black-mockup.png"
 import fnw from "../assets/fake-news-white-mockup.png"
 import flb from "../assets/flower-black-mockup.png"
 import flw from "../assets/flower-white-mockup.png"
+import flwc from "../assets/flower-white-colored-mockup.png"
+import flbc from "../assets/flower-black-colored-mockup.png"
 import lfb from "../assets/live-fast-black.png"
 import lfw from "../assets/live-fast-white.png"
 
@@ -68,14 +70,16 @@ export const products = [
     categoryGroup: "",
     addToGroup: true, // Set to false to hide this category from grouped filters
     sizes: ["S", "M", "L", "XL", "2XL"],
-    colors: ["Black", "White"], // More colors will be added later
+    colors: ["Black", "White", "Black (With colored flower)", "White (With colored flower)"], // More colors will be added later
     images: [
       flb,
-      flw
+      flw,
+      flbc,
+      flwc
     ], // INSERT PRODUCT IMAGE HERE (recommended size: 1200x1200)
     featured: false,
     limitedEdition: false,
-    disabled: true,
+    disabled: false,
     newArrival: true
   },
   {
