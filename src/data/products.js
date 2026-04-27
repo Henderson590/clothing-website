@@ -22,11 +22,11 @@ export const products = [
     id: 1,
     name: "Define Defiance - Tee",
     price: 30,
-    description: "• The Define Defiance - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.*",
+    description: "• The Define Defiance - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.* \n• Please note that shirt sizes 2XL and above will have an extra charge of $5 due to increased production costs.",
     category: "Define Defiance",
     categoryGroup: "",
     addToGroup: true, // Set to false to hide this category from grouped filters
-    sizes: ["S", "M", "L", "XL", "2XL"],
+    sizes: ["S", "M", "L", "XL", "2XL", "3XL"],
     colors: ["Black", "White", "Grey"], // More colors will be added later
     images: [
       bb,
@@ -45,11 +45,11 @@ export const products = [
     id: 2,
     name: "Define Defiance - Long Sleeve",
     price: 35,
-    description: "• The Define Defiance - Long Sleeve is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.*",
+    description: "• The Define Defiance - Long Sleeve is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.* \n• Please note that shirt sizes 2XL and above will have an extra charge of $5 due to increased production costs.",
     category: "Define Defiance",
     categoryGroup: "",
     addToGroup: true, // Set to false to hide this category from grouped filters
-    sizes: ["S", "M", "L", "XL", "2XL"],
+    sizes: ["S", "M", "L", "XL", "2XL", "3XL"],
     colors: ["Black", "White", "Grey"], // More colors will be added later
     images: [ 
       lsgf,
@@ -65,11 +65,11 @@ export const products = [
     id: 3,
     name: "Midnight Garden - Tee",
     price: 30,
-    description: "• The Midnight Garden - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.*",
+    description: "• The Midnight Garden - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.* \n• Please note that shirt sizes 2XL and above will have an extra charge of $5 due to increased production costs.",
     category: "Midnight Garden",
     categoryGroup: "",
     addToGroup: true, // Set to false to hide this category from grouped filters
-    sizes: ["S", "M", "L", "XL", "2XL"],
+    sizes: ["S", "M", "L", "XL", "2XL", "3XL"],
     colors: ["Black", "White"], // More colors will be added later
     images: [
       flb,
@@ -84,11 +84,11 @@ export const products = [
     id: 4,
     name: "Midnight Garden - Tee (Colored)",
     price: 30,
-    description: "• The Midnight Garden - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.*",
+    description: "• The Midnight Garden - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.* \n• Please note that shirt sizes 2XL and above will have an extra charge of $5 due to increased production costs.",
     category: "Midnight Garden",
     categoryGroup: "",
     addToGroup: true, // Set to false to hide this category from grouped filters
-    sizes: ["S", "M", "L", "XL", "2XL"],
+    sizes: ["S", "M", "L", "XL", "2XL", "3XL"],
     colors: ["Black", "White"], // More colors will be added later
     images: [
       flwc,
@@ -103,7 +103,7 @@ export const products = [
     id: 5,
     name: "Lost Truth - Tee",
     price: 30,
-    description: "• The Lost Truth - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.*",
+    description: "• The Lost Truth - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.* \n• Please note that shirt sizes 2XL and above will have an extra charge of $5 due to increased production costs.",
     category: "Lost Truth",
     categoryGroup: "",
     addToGroup: true, // Set to false to hide this category from grouped filters
@@ -122,7 +122,7 @@ export const products = [
     id: 6,
     name: "Live Fast, Die Hard - Tee",
     price: 30,
-    description: "• The Live Fast, Die Hard - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.*",
+    description: "• The Live Fast, Die Hard - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \nATTENTION: This is a pre-purchase item and will ship when the pre-purchase period ends. Also, please allow time for production and shipping of the item.* \n• Please note that shirt sizes 2XL and above will have an extra charge of $5 due to increased production costs.",
     category: "Live Fast, Die Hard",
     categoryGroup: "",
     addToGroup: true, // Set to false to hide this category from grouped filters
