@@ -64,7 +64,7 @@ export const products = [
   {
     id: 3,
     name: "Midnight Garden - Tee",
-    price: 30,
+    price: 35,
     description: "• The Midnight Garden - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \n• Please note that shirt sizes 2XL and above will have an extra charge of $5 due to increased production costs.",
     category: "Midnight Garden",
     categoryGroup: "",
@@ -77,7 +77,7 @@ export const products = [
     ], // INSERT PRODUCT IMAGE HERE (recommended size: 1200x1200)
     featured: false,
     limitedEdition: false,
-    disabled: true,
+    disabled: false,
     newArrival: true
   },
    {
