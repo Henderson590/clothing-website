@@ -77,7 +77,7 @@ export const products = [
     ], // INSERT PRODUCT IMAGE HERE (recommended size: 1200x1200)
     featured: false,
     limitedEdition: false,
-    disabled: false,
+    disabled: true,
     newArrival: true
   },
    {
