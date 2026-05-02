@@ -27,7 +27,7 @@ export const products = [
     categoryGroup: "",
     addToGroup: true, // Set to false to hide this category from grouped filters
     sizes: ["S", "M", "L", "XL", "2XL", "3XL"],
-    colors: ["Black", "White", "Grey"], // More colors will be added later
+    colors: ["Black", "White", "Grey", "#7a3d4d", "#35414f"], // More colors will be added later
     images: [
       bb,
       bf,
