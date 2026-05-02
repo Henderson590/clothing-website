@@ -43,26 +43,6 @@ export const products = [
   },
   {
     id: 2,
-    name: "Define Defiance - Long Sleeve",
-    price: 35,
-    description: "• The Define Defiance - Long Sleeve is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \n• Please note that shirt sizes 2XL and above will have an extra charge of $5 due to increased production costs.",
-    category: "Define Defiance",
-    categoryGroup: "",
-    addToGroup: true, // Set to false to hide this category from grouped filters
-    sizes: ["S", "M", "L", "XL", "2XL", "3XL"],
-    colors: ["Black", "White", "Grey"], // More colors will be added later
-    images: [ 
-      lsgf,
-      lswf,
-      lsbf
-    ], // INSERT PRODUCT IMAGE HERE (recommended size: 1200x1200)
-    featured: false,
-    limitedEdition: false,
-    disabled: true,
-    newArrival: true
-  },
-  {
-    id: 3,
     name: "Midnight Garden - Tee",
     price: 35,
     description: "• The Midnight Garden - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \n• Please note that shirt sizes 2XL and above will have an extra charge of $5 due to increased production costs.",
@@ -81,7 +61,7 @@ export const products = [
     newArrival: true
   },
    {
-    id: 4,
+    id: 3,
     name: "Midnight Garden - Tee (Colored)",
     price: 30,
     description: "• The Midnight Garden - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \n• Please note that shirt sizes 2XL and above will have an extra charge of $5 due to increased production costs.",
@@ -100,7 +80,7 @@ export const products = [
     newArrival: true
   },
   {
-    id: 5,
+    id: 4,
     name: "Lost Truth - Tee",
     price: 30,
     description: "• The Lost Truth - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \n• Please note that shirt sizes 2XL and above will have an extra charge of $5 due to increased production costs.",
@@ -112,25 +92,6 @@ export const products = [
     images: [
       fnw,
       fnb
-    ], // INSERT PRODUCT IMAGE HERE (recommended size: 1200x1200)
-    featured: false,
-    limitedEdition: false,
-    disabled: true,
-    newArrival: true
-  },
-  {
-    id: 6,
-    name: "Live Fast, Die Hard - Tee",
-    price: 30,
-    description: "• The Live Fast, Die Hard - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \n• Please note that shirt sizes 2XL and above will have an extra charge of $5 due to increased production costs.",
-    category: "Live Fast, Die Hard",
-    categoryGroup: "",
-    addToGroup: true, // Set to false to hide this category from grouped filters
-    sizes: ["S", "M", "L", "XL", "2XL", "3XL"],
-    colors: ["Black", "White"], // More colors will be added later
-    images: [
-      lfw,
-      lfb
     ], // INSERT PRODUCT IMAGE HERE (recommended size: 1200x1200)
     featured: false,
     limitedEdition: false,
