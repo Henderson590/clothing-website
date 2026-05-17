@@ -1,7 +1,8 @@
 export async function handler(event, context) {
   const promoCodes = [
     { code: "EARLY20", type: "percent", value: 20 },
-    { code: "DEFIANCE10", type: "percent", value: 10 }
+    { code: "SUPPORTER10", type: "percent", value: 10 },
+    { code: "CREATOR15", type: "percent", value: 15 }
   ];
 
   const body = JSON.parse(event.body);
