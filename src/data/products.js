@@ -75,7 +75,8 @@ export const products = [
     colors: ["Black", "White", "Gray", "#35414f"], // More colors will be added later
     images: [
       flwc,
-      flbc
+      flbc,
+      mu
     ], // INSERT PRODUCT IMAGE HERE (recommended size: 1200x1200)
     featured: false,
     limitedEdition: false,
