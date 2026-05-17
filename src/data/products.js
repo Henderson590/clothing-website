@@ -15,6 +15,8 @@ import flwc from "../assets/flower-white-colored-mockup.png"
 import flbc from "../assets/flower-black-colored-mockup.png"
 import lfb from "../assets/live-fast-black.png"
 import lfw from "../assets/live-fast-white.png"
+import mu from "../assets/mockups.jpg"
+import mu3 from "../assets/mockups3.jpg"
 
 // Seed products kept in code for fallback when Supabase is unavailable.
 export const products = [
@@ -53,7 +55,8 @@ export const products = [
     colors: ["Black", "White", "Gray", "#35414f"], // More colors will be added later
     images: [
       flb,
-      flw
+      flw,
+      mu
     ], // INSERT PRODUCT IMAGE HERE (recommended size: 1200x1200)
     featured: false,
     limitedEdition: false,
@@ -81,17 +84,18 @@ export const products = [
   },
   {
     id: 4,
-    name: "Lost Truth - Tee",
+    name: "Fake News - Tee",
     price: 30,
-    description: "• The Lost Truth - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \n• Please note that shirt sizes 2XL and above will have an extra charge of $5 due to increased production costs.",
-    category: "Lost Truth",
+    description: "• The Fake News - Tee is made from 100% combined cotton. \n• Standard fit with a relaxed and easy feel. \n• Please note that shirt sizes 2XL and above will have an extra charge of $5 due to increased production costs.",
+    category: "Fake News",
     categoryGroup: "",
     addToGroup: true, // Set to false to hide this category from grouped filters
     sizes: ["S", "M", "L", "XL", "2XL", "3XL"],
     colors: ["Black", "White", "Gray", "#7a3d4d", "#35414f"], // More colors will be added later
     images: [
       fnw,
-      fnb
+      fnb,
+      mu3
     ], // INSERT PRODUCT IMAGE HERE (recommended size: 1200x1200)
     featured: false,
     limitedEdition: false,
